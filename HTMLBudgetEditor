@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<link rel="stylesheet" href="BudgetPage.css">
+<meta charset = 'utf-8'>
+<title>Avocado.IO</title>
+</head>
+
+<body>
+
+<header>
+        <ul>
+        <li><a href="#Logo"><img src="avoo.png" width="50" height="71"></a></li>
+        <li><a href="#Budget">Budget</a></li>
+        <li><a href="#Reports">Reports</a></li>
+        <li><a class="floatright" href="#Account"><img src="icon.jpg" height="50" width="50"></a></li>
+        </ul>
+</header>
+
+<div class="grid-container">
+	<div class="item1">Month Title</div>
+	<div class="item2">TABLE GOES HERE</div>
+	<div class="item3">
+	<div class="item7">Older Budgets</div>
+	<div class="item10">2021</div>
+	<div class="item11">^</div>
+	</div>
+	<div class="item4">item4</div>
+	<div class="buttongroup">
+	<div class="item8">+</div>
+	<div class="item9">[Save]</div></div>
+</div>
+
+
+
+</body>
+</html>
+
+
