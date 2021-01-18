@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+    <title>Budget Editor</title>
+
+  </head>
+  <body>
+
+    <nav>
+      <div id="logo-img">
+        <a href="#"><img src="avoo.svg" alt="avocado logo"></a>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Budget</a>
+        </li>
+        <li><a href="#">Reports</a></li>
+      </ul>
+      <div id="account-img">
+        <a href="#">
+          <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d)">
+              <circle cx="30" cy="30" r="20" fill="#F2F2F2"/>
+            </g>
+            <defs>
+              <filter id="filter0_d" x="0" y="0" width="68" height="68" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dx="4" dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+              </filter>
+            </defs>
+          </svg>
+      </a>
+      </div>
+
+    </nav>
+    <main>
+
+
+      <div class="grid-container">
+        <!-- Welcome -->
+        <div class="box1">
+          <h1>New Budget...</h1>
+        </div>
+        <!-- Entry -->
+        <div class="box2">
+
+          <div class="BudgetTitle1">Category:</div>
+          <div class="BudgetTitle2">Amount:</div>
+          <div class="BudgetTitle3">Color:</div>
+
+
+          <div class="cat1"><input type="text"></div>
+
+
+          <div class="cat2"><input type="text"></div>
+
+
+          <div class="cat3"><input type="text"></div>
+
+
+          <div class="dollar1"><input type="text"></div>
+
+
+          <div class="dollar2"><input type="text"></div>
+
+
+          <div class="dollar3"><input type="text"></div>
+
+
+          <div class="color1"><input type="color"></div>
+
+
+          <div class="color2"><input type="color"></div>
+
+
+          <div class="color3"><input type="color"></div>
+
+          <div class="AddCategory vertical-center">+</div>
+
+          <div class="SaveBudgetButton">Save</div>
+
+
+
+
+
+
+
+
+        <!-- Padding until Box8-->  
+        </div>
+        <div class="box3">
+
+        </div>
+        <div class="box4">
+
+        </div>
+        <div class="box5">
+
+        </div>
+        <div class="box6">
+
+        </div>
+        <div class="box7">
+
+        </div>
+        <!-- Past Budgets Box-->
+        <div class="box8">
+
+
+          <div class="item1 dropdown">
+            <button onclick="SelectPastBudget()" class="dropbtn">2021 <i class="arrow down"></i></button>
+              <div id="YearDrop" class="dropdown-content">
+                <a href="#">2020</a>
+                <a href="#">2019</a>
+                <a href="#">2018</a>
+              </div>
+          
+
+
+          </div>
+          <div class="item2">
+            Jan
+          </div>
+          <div class="item3">
+            Feb
+          </div>
+          <div class="item4">
+            Mar
+          </div>
+
+
+        </div>
+        <div class="box9">
+        </div>
+      </div>
+
+
+        <!--<div class="grid-container">
+
+          <div class="grid-item">
+
+            <div class="budget-chart">
+              <p>This is your current budget</p>
+
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="expenditures">
+              <p>Your expenditures</p>
+
+
+            </div>
+          </div>
+
+        </div>-->
+
+    </main>
+    <script src="chart.js"></script>
+  </body>
+  </html>
+
+
+
+
+<script> function SelectPastBudget() {
+  document.getElementById("YearDrop").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
