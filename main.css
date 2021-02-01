@@ -1,0 +1,394 @@
+
+
+
+#bgavo {
+position: absolute;
+width: 576.23px;
+height: 939.69px;
+left: -291px;
+top: calc(50% - 939.69px/2 - 48.66px);
+
+
+}
+
+body {
+	overflow: scroll;
+
+	
+}
+
+#background {
+
+}
+.container {
+
+	/*position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px; */
+
+	
+/* BG rectangle set to scale*/
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+
+
+	background-image: url("avocado/avoo.svg");
+	background-position: 0 0;
+
+
+	background: rgba(242, 242, 242, 0.5);
+	backdrop-filter: blur(50px);
+
+	
+	/* Note: backdrop-filter has minimal browser support */
+}
+
+
+#banner ul {
+	display: inline-block;
+
+}
+
+
+h1{
+	position: absolute;
+	width: 676px;
+	height: 175px;
+	/*left: 353px;
+	top: 173px;*/
+	left: calc(50% - 676px/2 + 115px);
+	top: calc(50% - 88px/2 - 133px);
+
+
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 96px;
+	line-height: 12px;
+	text-align: center;
+	
+
+	color: #63C56D;
+
+}
+
+
+#avo {
+position: absolute;
+width: 47.22px;
+height: 77.01px;
+left: calc(50% - 47.22px/2 + 292.31px);
+top: calc(50% - 77.01px/2 - 127.79px);
+margin-top: 15px;
+
+
+
+}
+
+#slogan {
+
+
+	position: absolute;
+	width: 453px;
+	height: 15px;
+	left: calc(50% - 453px/2 + 145.5px);
+	top: calc(50% - 30px/2 - 50px);
+
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #282828;	
+}
+
+#signup{
+	position: absolute;
+	width: 189px;
+	height: 37px;
+	left: calc(50% - 189px/2 + 134.5px);
+	top: calc(50% - 37px/2 + 19.5px); 
+
+	background: #63C56D;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 25px;
+	border: none;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+#howitworks{
+
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+
+	color: #FFFFFF;
+
+	position: absolute;
+	width: 189px;
+	height: 37px;
+	left: calc(50% - 189px/2 + 134.5px);
+	top: calc(50% - 37px/2 + 74.5px);
+
+
+	background: #63C56D;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 25px;
+	border: none;
+
+}
+
+#acccheck {
+	position: absolute;
+	width: 339px;
+	height: 26px;
+	left: calc(50% - 339px/2 + 134.5px);
+	top: calc(50% - 26px/2 + 139px);
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+
+	color: #282828;
+
+}
+
+a {
+
+	position: absolute;
+	width: 133px;
+	height: 25px;
+	left: calc(50% - 133px/2 + 134.5px);
+	top: calc(50% - 25px/2 + 164.5px);
+	margin-top: 20px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 25px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #3F7E45;
+
+}
+
+
+label.eform {
+	
+position: absolute;
+width: 42px;
+height: 15px;
+left: calc(50% - 42px/2 - 39px);
+top: calc(50% - 15px/2 - 10.5px);
+margin-top: 10px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+
+color: #282828;
+
+}
+
+input.eform {
+	
+position: absolute;
+width: 421px;
+height: 43px;
+left: calc(50% - 421px/2 + 140.5px);
+top: calc(50% - 43px/2 + 31.5px);
+margin-top:10px;
+
+background: #FFFFFF;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+border-radius: 11px;
+border:none;
+
+}
+
+label.pform {
+position: absolute;
+width: 69px;
+height: 15px;
+left: calc(50% - 69px/2 - 25.5px);
+top: calc(50% - 15px/2 + 94.5px);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+color: #282828;
+
+}
+
+input.pform {
+position: absolute;
+width: 421px;
+height: 43px;
+left: calc(50% - 421px/2 + 140.5px);
+top: calc(50% - 43px/2 + 136.5px);
+
+background: #FFFFFF;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+border-radius: 11px;
+border:none;
+
+}
+
+#login {
+position: absolute;
+width: 189px;
+height: 37px;
+left: calc(50% - 189px/2 + 140.5px);
+top: calc(50% - 37px/2 + 224.5px);
+
+background: #63C56D;
+border-radius: 25px;
+border:none;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.entfield {
+position: absolute;
+width: 240px;
+height: 35px;
+/*left: calc(50% - 240px/2 - 65px);
+top: calc(50% - 35px/2 - 131.5px); */
+border: none;
+margin-bottom: 100px;
+
+background: #FFFFFF;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+border-radius: 11px;
+}
+
+.entfield2 {
+position: absolute;
+width: 110px;
+height: 35px;
+/*left: calc(50% - 240px/2 - 65px);
+top: calc(50% - 35px/2 - 131.5px); */
+border: none;
+
+background: #FFFFFF;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+border-radius: 11px;
+}
+
+.entfield3 {
+position: absolute;
+width: 370px;
+height: 35px;
+/*left: calc(50% - 240px/2 - 65px);
+top: calc(50% - 35px/2 - 131.5px); */
+border: none;
+
+background: #FFFFFF;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+border-radius: 11px;
+}
+
+
+#infocollec {
+	position: absolute;
+	left: calc(50% - 240px/2 - 65px);
+	top: calc(50% - 35px/2 - 131.5px);
+
+}
+
+label {
+	font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+color: #282828;
+
+}
+
+#bannersu {
+position: absolute;
+width: 160px;
+height: 43px;
+left: calc(50% - 160px/2 + 344px);
+top: calc(50% - 43px/2 - 200px);
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+}
+
+#signmeup {
+	position: absolute;
+width: 189px;
+height: 37px;
+left: 482px;
+top: 581px;
+
+	background: #63C56D;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 25px;
+	border: none;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
